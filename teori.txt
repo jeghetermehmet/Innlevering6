@@ -1,0 +1,22 @@
+1) Hva er innkapsling? Hvorfor er det nyttig?
+Innkapsling er et konsept innenfor objektorientert programmering (OOP) 
+som refererer til ideen om å skjule den interne implementeringen av en klasse og 
+gi tilgang til klassens medlemmer (attributter og metoder) gjennom definerte grensesnitt,
+vanligvis kalt metoder. Dette betyr at de interne detaljene i en klasse er skjult for brukeren av klassen, 
+og brukeren kan bare samhandle med klassen gjennom de offentlige metodene som er tilgjengelige.
+Innkapsling er nyttig på grunn av sikkerhet, abstraksjon, fleksibilitet, kontroll, kodevedlikehold og teamarbeid.
+2)Hva er grensesnittet til en klasse? Hvordan skiller det seg fra implementasjonen av
+en klasse?
+Grensesnittet er det som er synlig og definert for brukere av klassen,
+mens implementasjonen er de interne detaljene som er skjult fra brukerne.
+Grensesnittet beskriver "hva" klassen kan gjøre, mens implementasjonen beskriver "hvordan" klassen gjør det.
+Grensesnittet er en abstraksjon som gir en kontrakt for hvordan en klasse skal brukes,
+mens implementasjonen er den konkrete implementeringen av denne kontrakten.
+Grensesnittet fokuserer på funksjonaliteten og funksjonssignaturen,
+mens implementasjonen fokuserer på hvordan denne funksjonaliteten blir oppnådd.
+3)Hva er en instansmetode (ofte kalt bare metode), og hvordan skiller metoder seg fra
+prosedyrene/funksjonene vi har jobbet med hittil?
+En instansmetode, ofte referert til som bare en "metode",
+er en funksjon som er knyttet til en spesifikk instans av en klasse i objektorientert programmering (OOP).
+Metoder er en del av klassedefinisjonen og kan utføre handlinger og
+operasjoner på dataene som tilhører en bestemt instans av klassen.
